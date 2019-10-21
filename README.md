@@ -1,7 +1,7 @@
-# Calculator by Chris Sanchez
+# Calculator by Chris Sanchez & George Acosta
 
 #### 10/21/2019
-#### By Chris Sanchez
+#### By Chris Sanchez & George Acosta
 
 ## Description
 
@@ -17,7 +17,7 @@ To visit the site: https://sanchito59.github.io/calculatorWeek2/
 ## Setup/Installation Requirements
 
 This site doesn't have any specific installation requirements.  
-To visit the site: https://sanchito59.github.io/calculatorWeek2/
+To visit the site: https://sanchito59.github.io/calculatorWeek2/ & https://github.com/GACOSTA1988/calculatorproject.git
 
 ## Known Bugs
 
@@ -25,7 +25,7 @@ There are no known bugs at this time.
 
 ## Support and contact details
 
-Please refer any feedback or questions to c.sanch7@gmail.com
+Please refer any feedback or questions to c.sanch7@gmail.com & georgecostar@gmail.com
 
 ### License
 
@@ -37,4 +37,4 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Copyright (c) 2019 **Chris Sanchez**
+Copyright (c) 2019 **Chris Sanchez** **George Acosta**
