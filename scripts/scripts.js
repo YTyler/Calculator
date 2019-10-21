@@ -40,3 +40,11 @@ if(isNaN(result)) {
 } else {
   alert("Your BMI is: " + result + ". Refresh the page to calculate again!");
 }
+
+// celsius to Fahrenheit
+var celsiusPrompt = parseFloat(prompt ("Enter the celsius"));
+// var fahrenheit = parseFloat ("Enter the Fahrenheit")
+var celciusToFahrenheit = function (celsius) {
+return celsiusPrompt * (9/5) + 32;
+}
+  alert (celsiusPrompt +' to fahrenheit: '+ celciusToFahrenheit(celsiusPrompt));
