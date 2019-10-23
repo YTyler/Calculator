@@ -15,33 +15,33 @@ $(document).ready(function() {
   // $("#calculatorForm").submit(function(event) {
   //   number1 = parseInt($("input#number1").val());
   //   number2 = parseInt($("input#number2").val());
-  //   number3 = parseInt(add(number1, number2));
+  //   result = parseInt(add(number1, number2));
   //   console.log(number1);
   //   console.log(number2);
-  //   console.log(number3);
-  //   console.log("Type of: ", typeof(number3));
+  //   console.log(result);
+  //   console.log("Type of: ", typeof(result));
   //   event.preventDefault();
   $('button#add').click(function() {
     var number1 = parseInt($("input#number1").val());
     var number2 = parseInt($("input#number2").val());
-    var number3 = parseInt(add(number1, number2));
-    $("#additionResult").text(number3);
+    var result = parseInt(add(number1, number2));
+    $("#additionResult").text(result);
     $(".results").slideDown();
     event.preventDefault();
   });
   $('button#subtract').click(function() {
     var number1 = parseInt($("input#number1").val());
     var number2 = parseInt($("input#number2").val());
-    var number3 = parseInt(subtract(number1, number2));
-    $("#subtractionResult").text(number3);
+    var result = parseInt(subtract(number1, number2));
+    $("#subtractionResult").text(result);
     $(".results").slideDown();
     event.preventDefault();
   });
   $('button#multiply').click(function() {
     var number1 = parseInt($("input#number1").val());
     var number2 = parseInt($("input#number2").val());
-    var number3 = parseInt(multiply(number1, number2));
-    $("#multiplicationResult").text(number3);
+    var result = parseInt(multiply(number1, number2));
+    $("#multiplicationResult").text(result);
     $(".results").slideDown();
     event.preventDefault();
   });
@@ -53,8 +53,8 @@ $(document).ready(function() {
       event.preventDefault();
       return errorMessage;
     }
-    var number3 = parseFloat(divide(number1, number2)).toFixed(2);
-    $("#divisionResult").text(number3);
+    var result = parseFloat(divide(number1, number2)).toFixed(2);
+    $("#divisionResult").text(result);
     $(".results").slideDown();
     event.preventDefault();
   });

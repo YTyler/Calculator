@@ -1,4 +1,6 @@
-
+/* * {
+  border: 1px solid red;
+} */
 #test {
   width: 200px;
   height: 200px;
@@ -10,6 +12,7 @@
 
 .results {
   width: 30%;
+  min-width: 300px;
   display: none;
   background-color: #b4d1ce;
   border-radius: 5px;
@@ -24,4 +27,22 @@
 
 #additionResult, #subtractionResult, #multiplicationResult, #divisionResult {
   float: right;
+}
+
+@media (max-width: 320px) {
+  body{
+    /* background-color: red; */
+  }
+  .results {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  body{
+    /* background-color: cyan; */
+  }
+  .results {
+    max-width: 300px;
+  }
 }
