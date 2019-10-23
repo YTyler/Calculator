@@ -2,12 +2,29 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/styles.css">
     <title>Calculator</title>
   </head>
   <body>
     <h1>Calculator</h1>
+    <div class="container">
+      <form id="calculatorForm">
+        <div class="form-group">
+          <label for="number1">Number 1</label>
+          <input type="text" name="" value="" id="number1"required placeholder="Enter a number">
+        </div>
+        <div class="form-group">
+          <label for="number2">Number 2</label>
+          <input type="text" name="" value="" id="number2"required placeholder="Enter a number">
+        </div>
+        <button type="submit" id="submitButton" class="btn btn-primary" name="button">Calculate!</button>
+      </form>
+    </div>
 
+    <p id="test"></p>
+
+    <script src="scripts/jquery-3.4.1.js" charset="utf-8"></script>
     <script src="scripts/scripts.js" charset="utf-8"></script>
   </body>
 </html>
