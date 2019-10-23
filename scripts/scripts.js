@@ -1,18 +1,17 @@
+var add = function(number1, number2) {
+  return number1 + number2;
+};
+var subtract = function(number1, number2){
+  return number1 - number2;
+};
+var multiply = function (number1, number2){
+  return number1 * number2;
+};
+var divide= function(number1, number2){
+    return number1 / number2;
+  };
+var errorMessage = "Can't divide by zero!";
 $(document).ready(function() {
-  var add = function(number1, number2) {
-    return number1 + number2;
-  };
-  var subtract = function(number1, number2){
-    return number1 - number2;
-  };
-  var multiply = function (number1, number2){
-    return number1 * number2;
-  };
-  var divide= function(number1, number2){
-      return number1 / number2;
-    };
-  var errorMessage = "Can't divide by zero!"
-
   // $("#calculatorForm").submit(function(event) {
   //   number1 = parseInt($("input#number1").val());
   //   number2 = parseInt($("input#number2").val());
