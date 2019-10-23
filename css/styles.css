@@ -7,3 +7,15 @@
   margin: 10px;
   padding: 10px;
 }
+
+.results {
+  display: none;
+  background-color: #b4d1ce;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 7.5px;
+}
+
+.resultStyle {
+  text-decoration: underline;
+}
