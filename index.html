@@ -11,21 +11,47 @@
     <h1>Calculator</h1>
     <form id="calculatorForm">
       <div class="form-group">
-        <label for="number1">Number 1</label>
-        <input type="text" name="" value="" id="number1"required placeholder="Enter a number">
+        <label for="number1">First Number</label>
+        <input type="number" name="" value="" id="number1"required placeholder="Enter a number">
       </div>
       <div class="form-group">
-        <label for="number2">Number 2</label>
-        <input type="text" name="" value="" id="number2"required placeholder="Enter a number">
+        <label for="number2">Second Number</label>
+        <input type="number" name="" value="" id="number2"required placeholder="Enter a number">
       </div>
-      <!-- <button type="submit" id="submitButton" class="btn btn-primary" name="button">Calculate!</button> -->
-      <button type="submit" id="add" class="btn btn-info">Add!</button>
-      <button type="submit" id="subtract" class="btn btn-info">Subtract!</button>
-      <button type="submit" id="multiply" class="btn btn-info">Multiply!</button>
-      <button type="submit" id="divide" class="btn btn-info">Divide!</button>
-    </form>
-    <div class="results">
 
+      <!-- <button type="submit" id="add" class="btn btn-info">Add!</button> -->
+      <!-- <button type="submit" id="subtract" class="btn btn-info">Subtract!</button>
+      <button type="submit" id="multiply" class="btn btn-info">Multiply!</button>
+      <button type="submit" id="divide" class="btn btn-info">Divide!</button> -->
+
+      <div class="form-group">
+        <label>
+          <input type="radio" name="operator" value="+">
+          Add
+        </label>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="radio" name="operator" value="-">
+          Subtract
+        </label>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="radio" name="operator" value="*">
+          Multiply
+        </label>
+      </div>
+      <div class="form-group">
+        <label>
+          <input type="radio" name="operator" value="/">
+          Divide
+        </label>
+      </div>
+      <button type="submit" id="submitButton" class="btn btn-danger" name="button">Calculate!</button>
+    </form>
+
+    <div class="results">
       <!-- Format Section -->
       <p><span class="resultStyle">Sum</span>: <span id="additionResult"></span></p>
       <p><span class="resultStyle">Difference</span>: <span id="subtractionResult"></span></p>
